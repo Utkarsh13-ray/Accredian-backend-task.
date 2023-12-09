@@ -13,9 +13,9 @@ dotenv.config()
 
 app.use(express.json());// middleware used to take data in json in express for use req.body
 app.use(cors());
-// app.get('/', (req, res) => {
-//   res.send('Hello Utkarsh!')
-// })
+app.get('/', (req, res) => {
+  res.send('Hello Utkarsh!')
+})
 app.use('/api/auth',require('./routes/auth'))
 
 app.listen(port, () => {
