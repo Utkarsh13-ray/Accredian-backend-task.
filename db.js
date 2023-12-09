@@ -1,7 +1,7 @@
 const mongoose=require('mongoose');
 
 
-const mongoURI="mongodb://0.0.0.0:27017/userbook"
+const mongoURI="mongodb+srv://Utkarsh:utkarshp1@cluster0.qiwksar.mongodb.net/Userbook?retryWrites=true&w=majority"
 
 
 const connectToMongo=()=>{
